@@ -32,22 +32,22 @@ function carousel(){
         <div class="carousel-item active" data-bs-interval="3000">
           <img src="/img/hero1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h2>Discover Fashion In Our Site</h2>
+            <p>We have the ongoing top notch fashion in our site.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img src="/img/hero2.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h2>Ecofriendly High Quality Clothes</h2>
+            <p>No Synthetic clothes here 100% natural and eco friendly .</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img src="/img/hero4.png" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h2>We are the brand which cares for its family</h2>
+            <p>We never say customers we have our family which buys our products.</p>
           </div>
         </div>
       </div>
