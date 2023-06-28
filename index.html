@@ -28,9 +28,11 @@
     <!-- * Main -->
     <!-- Carousel -->
     <div id="carouselContainer"></div>
-
+    <section id="feature" class="section-p1"></section>
     <!-- / Carousel -->
+
     <!-- * / Main -->
+
     <!-- Footer Section Starts -->
     <footer class="section-p1" id="footer"></footer>
     <!-- Footer Section Ends -->
@@ -38,13 +40,17 @@
       import navbar from "./modules/header.js";
       import foo from "./modules/footer.js";
       import carousel from "./modules/carousel.js";
+      import features from "./modules/features.js";
+
       let nav = document.getElementById("header");
       let footer = document.getElementById("footer");
       let carouselContainer = document.getElementById("carouselContainer");
+      let featuresContainer = document.getElementById("feature");
 
       nav.innerHTML = navbar();
       footer.innerHTML = foo();
       carouselContainer.innerHTML = carousel();
+      featuresContainer.innerHTML = features();
     </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
