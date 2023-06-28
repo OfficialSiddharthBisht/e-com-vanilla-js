@@ -16,10 +16,17 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/0d1e11b028.js"></script>
+    <!-- Link to CSS files -->
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Siddharth's E=Commerce Site</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <section id="header"></section>
+    <script type="module">
+      import navbar from "./modules/header.js";
+      let nav = document.getElementById("header");
+      nav.innerHTML = navbar();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
