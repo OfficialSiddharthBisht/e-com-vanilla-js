@@ -134,7 +134,8 @@ body {
 
 /* Home Page */
 #hero {
-    background-image: url("img/hero4.png");
+    /* background-image: url("../img/hero4.png"); */
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_1280.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
