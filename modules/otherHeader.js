@@ -3,7 +3,7 @@ function navbar(){
     <a href="#"> <img src="../img/logo.png" class="logo" alt="" /></a>
       <div>
         <ul id="navbar">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>

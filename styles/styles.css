@@ -635,10 +635,27 @@ footer .copyright {
     #newsletter .form {
         width: 70%;
     }
+    #form-details .people{
+        grid-template-columns: repeat(2,1fr);
+        display: none;
+       background-color: red;
+    }
+    #contact-details{
+        display: block;
+    }
+    #contact-details .details{
+        width: 40%;
+        
+    }
 }
 
 @media (max-width:477px) {
-
+    #form-details .people div{
+        display: none;
+     }
+     #contact-details{
+        display: block;
+    }
     .section-p1 {
         padding: 20px;
     }

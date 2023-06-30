@@ -5,8 +5,8 @@ function navbar(){
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
           <li><a href="login.html">Login / Sign Up</a></li>
           <li>
             <a href="cart.html"
