@@ -4,10 +4,10 @@ function navbar(){
       <div>
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
+          <li><a href="./pages/shop.html">Shop</a></li>
           <li><a href="./pages/about.html">About</a></li>
           <li><a href="./pages/contact.html">Contact</a></li>
-          <li><a href="login.html">Login / Sign Up</a></li>
+          <li><a href="./pages/login.html">Login</a></li>
           <li>
             <a href="cart.html"
               ><i class="fa-solid fa-bag-shopping" style="color: #333c39"></i
